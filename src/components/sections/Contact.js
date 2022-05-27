@@ -55,9 +55,9 @@ function Contact() {
       <div className="container">
         <Pagetitle title="Get in Touch" />
 
-        <div className="row">
+        <div className="row" data-aos='fade-up'>
           <div className="col-md-4">
-            <div className="contact-info"  data-aos='fade-up'>
+            <div className="contact-info"  >
               <ScrollAnimation
                 animateIn="fadeInUp"
                 animateOut="fadeInOut"

@@ -177,7 +177,7 @@ function Works() {
   };
 
   return (
-    <section id="works">
+    <section id="works" >
       <div className="container">
         <Pagetitle title="Recent Works" />
         {/* Start Portfolio Filters */}
@@ -186,7 +186,7 @@ function Works() {
           animateOut="fadeInOut"
           animateOnce={false}
         >
-          <ul className="portfolio-filter list-inline">
+          <ul className="portfolio-filter list-inline" data-aos='fade-up'>
             {filters.map((filter) => (
               <li className="list-inline-item" key={filter.id}>
                 <button
@@ -206,7 +206,7 @@ function Works() {
         {/* End Portfolio Filters */}
 
         {/* Start Portfolio Items */}
-        <div className="row portfolio-wrapper">
+        <div className="row portfolio-wrapper" data-aos='fade-up'>
           {visibleItems.map((item) => (
             <div className="col-md-4 col-sm-6 grid-item" key={item.id}>
               <Portfolio portfolio={item} />

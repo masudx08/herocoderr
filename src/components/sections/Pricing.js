@@ -58,7 +58,7 @@ function Pricing() {
     <section id="prices">
       <div className="container">
         <Pagetitle title="Pricing Plans" />
-        <div className="row align-items-center">
+        <div className="row align-items-center" data-aos='fade-up'>
           {priceboxData.map((pricebox) => (
             <div key={pricebox.id} className="col-md-4">
               <Pricebox priceboxItem={pricebox} />

@@ -37,7 +37,7 @@ const brandlogoData = [
 
 function Brandlogos() {
   return (
-    <div id="branglogos">
+    <div id="branglogos" data-aos='fade-up'>
       <div className="container">
         <div className="row">
           {brandlogoData.map((brandlogo) => (

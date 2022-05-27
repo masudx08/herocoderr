@@ -38,14 +38,14 @@ function Blogs() {
     <section id="blog">
       <div className="container">
         <Pagetitle title="Latest Posts" />
-        <div className="row blog-wrapper">
+        <div className="row blog-wrapper" data-aos='fade-up'>
           {allBlogs.map((blogItem) => (
             <div className="col-md-4" key={blogItem.id}>
               <Blog blogData={blogItem} />
             </div>
           ))}
         </div>
-        <div className="text-center">
+        <div className="text-center" data-aos='fade-up'>
           <div className="spacer" data-height="30"></div>
           <Link to="/blogs" className="btn btn-default">
             Show all blogs

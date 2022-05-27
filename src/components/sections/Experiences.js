@@ -5,48 +5,48 @@ import Timeline from "../elements/Timeline";
 const educationData = [
   {
     id: 1,
-    title: "Acamedic Degree",
-    years: "2019 - Present",
+    title: "Basic Journey",
+    years: "2017",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Learned HTML, CSS, Js Step by Step from W3School, Freecodecamp & Mozilla Development Network.",
   },
   {
     id: 2,
-    title: "Bachelor’s Degree",
-    years: "2017 - 2013",
+    title: "Intermediate Journey",
+    years: "2017 - present",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Covered React, Node, Mongo, Express and others. I have taken 12+ Course to make awesome Backbone",
   },
   {
     id: 3,
-    title: "Honours Degree",
-    years: "2013 - 2009",
+    title: "Success Journey",
+    years: "2020 - 2022",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Got paid Internship, then Promoted to Job and then promoted to FullStack developer.",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
-    title: "Web Designer",
-    years: "2019 - Present",
+    title: "Frontend Developer",
+    years: "2018 - Present",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Expert in Pixel Perfect Design. I ensure Responsive design for Mobile, Tab & Desktop",
   },
   {
     id: 2,
-    title: "Front-End Developer",
-    years: "2017 - 2013",
+    title: "Backend Developer",
+    years: "2018 - Present",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Professional to manage Server and Database. I ensure Security to the Application",
   },
   {
     id: 3,
-    title: "Back-End Developer",
-    years: "2013 - 2009",
+    title: "MERN Stack Developer",
+    years: "2019 - Present",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Highly Expertise in MERN Stack. I ensure  Standard and Quality Product",
   },
 ];
 

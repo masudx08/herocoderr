@@ -42,7 +42,7 @@ function Testimonials() {
 
   return (
     <section id="testimonials">
-      <div className="container">
+      <div className="container" data-aos='fade-up'>
         <Pagetitle title="Clients & Review" />
         <Slider {...slidetSettings} className="testimonials-wrapper">
           {sliderData.map((slider) => (

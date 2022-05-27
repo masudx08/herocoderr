@@ -26,14 +26,15 @@ function Homepage() {
         <Element name="section-about">
           <About />
         </Element>
-        <Element name="section-services">
-          <Services />
-        </Element>
+       
         <Element name="section-experiences">
           <Experiences />
         </Element>
         <Element name="section-works">
           <Works />
+        </Element>
+        <Element name="section-services">
+          <Services />
         </Element>
         <Element name="section-pricing">
           <Pricing />
@@ -47,9 +48,9 @@ function Homepage() {
         <Element name="section-blogs">
           <Blogs />
         </Element>
-        <Element name="section-contact">
+        {/* <Element name="section-contact">
           <Contact />
-        </Element>
+        </Element> */}
         <div className="spacer" data-height="96"></div>
       </main>
       <Footer />

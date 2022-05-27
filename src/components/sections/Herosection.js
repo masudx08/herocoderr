@@ -26,14 +26,14 @@ function Herosection(props) {
         <div className="intro">
           <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
 
-          <h1 className="mb-2 mt-0">Bolby Doe</h1>
+          <h1 className="mb-2 mt-0">ALAM MIA</h1>
           <p>
             I'm a{" "}
             <Typed
               strings={[
-                "UI/UX designer ",
-                "Front-End developer",
-                "Photography lover",
+                "Front-End Developer",
+                "Backend Developer",
+                "MERN Stack Developer ",
               ]}
               typeSpeed={80}
               backSpeed={40}
@@ -44,7 +44,7 @@ function Herosection(props) {
             </Typed>
           </p>
 
-          <ul className="social-icons light list-inline mb-0 mt-4">
+          {/* <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
               <a href="!#">
                 <i className="fab fa-instagram"></i>
@@ -70,18 +70,16 @@ function Herosection(props) {
                 <i className="fab fa-pinterest-p"></i>
               </a>
             </li>
-          </ul>
+          </ul> */}
 
           <div className="mt-4">
-            <Link
+            <a
               className="btn btn-default"
-              to="section-contact"
-              spy={true}
-              smooth={true}
-              duration={500}
+              target="_blank"
+              href="https://www.upwork.com/freelancers/~011219692ea643aa2f"
             >
               Hire me
-            </Link>
+            </a>
           </div>
         </div>
 

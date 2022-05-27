@@ -550,3 +550,12 @@ header.mobile-header-2 {
 		}
 	}
 }
+
+
+@media screen and (min-width:992px) {
+	.collapse.navbar-collapse{
+		display: flex;
+		justify-content: center;
+	}
+	
+}

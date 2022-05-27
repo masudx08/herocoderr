@@ -8,26 +8,26 @@ const aboutContent = {
   name: "Bolby",
   avatarImage: "/images/avatar-2.svg",
   content:
-    "I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.",
+    "I am a professional Frontend Web developer and MERN Stack developer. After 4 years of experience with a company and some teams, I think I am perfect for providing awesome frontend service. I am highly experienced in working with React.",
 };
 
 const progressData = [
   {
     id: 1,
-    title: "Development",
-    percantage: 85,
+    title: "Frontend Development",
+    percantage: 99,
     progressColor: "#FFD15C",
   },
   {
     id: 2,
-    title: "UI/UX Design",
+    title: "Backend Development",
     percantage: 95,
     progressColor: "#FF4C60",
   },
   {
     id: 3,
-    title: "Photography",
-    percantage: 70,
+    title: "MERN Stack Development",
+    percantage: 97,
     progressColor: "#6C6CE5",
   },
 ];
@@ -64,7 +64,7 @@ function About() {
     <section  id="about">
       <div  className="container" >
         <Pagetitle  title="About Me" />
-        <div className="row">
+        <div className="row" data-aos='fade-up'>
           <div className="col-md-3">
             <div  className="text-center text-md-left">
               <img src={aboutContent.avatarImage} alt={aboutContent.name} />
@@ -78,8 +78,8 @@ function About() {
                 <div className="col-md-6">
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
-                    <a href="!#" className="btn btn-default">
-                      Download CV
+                    <a href="https://www.upwork.com/freelancers/~011219692ea643aa2f" className="btn btn-default">
+                      View CV
                     </a>
                   </div>
                   <div
@@ -103,9 +103,9 @@ function About() {
           </div>
         </div>
         <div className="spacer" data-height="70"></div>
-        <div className="row fix-spacing">
+        <div className="row fix-spacing" data-aos='fade-up'>
           {counterData.map((counter) => (
-            <div key={counter.id} className="col-md-3 col-sm-6">
+            <div  key={counter.id} className="col-md-3 col-sm-6">
               <TrackVisibility once>
                 <Counter counterItem={counter} />
               </TrackVisibility>
