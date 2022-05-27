@@ -18,7 +18,7 @@ function BlogDetails(props) {
       });
   }, [content, blogFile]);
 
-  const disqusShortname = "bolby"; //found in your Disqus.com dashboard
+  const disqusShortname = "Alam"; //found in your Disqus.com dashboard
   const disqusConfig = {
     url: "https://jthemes.net/themes/react/bolby", //Homepage link of this site.
     identifier: blogId,
@@ -54,12 +54,12 @@ function BlogDetails(props) {
           <div className="container">
             <div className="blog-single shadow-dark p-30">
               <Markdown>{content}</Markdown>
-              <div className="mi-blog-details-comments mt-30">
+              {/* <div className="mi-blog-details-comments mt-30">
                 <Disqus.DiscussionEmbed
                   shortname={disqusShortname}
                   config={disqusConfig}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

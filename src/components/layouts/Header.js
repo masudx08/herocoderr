@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { Link as LinkR } from "react-router-dom";
 import Logo from "../elements/Logo";
 
 function Header({ light, logoSource, toggleMenu, headerToggler }) {
@@ -42,81 +43,81 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
         <nav>
           <ul className="vertical-menu scrollspy">
             <li>
-              <Link
+              <LinkR
                 activeClass="active"
-                to="section-home"
                 spy={true}
+                to='/'
                 smooth={true}
                 duration={500}
               >
                 <i className="icon-home"></i>Home
-              </Link>
+              </LinkR>
             </li>
             <li>
-              <Link
+              <LinkR
                 activeClass="active"
-                to="section-about"
                 spy={true}
+                to='/'
                 smooth={true}
                 duration={500}
               >
                 <i className="icon-user-following"></i>About
-              </Link>
+              </LinkR>
             </li>
             <li>
-              <Link
+              <LinkR
                 activeClass="active"
-                to="section-services"
                 spy={true}
+                to='/'
                 smooth={true}
                 duration={500}
               >
                 <i className="icon-briefcase"></i>Services
-              </Link>
+              </LinkR>
             </li>
             <li>
-              <Link
+              <LinkR
                 activeClass="active"
-                to="section-experiences"
                 spy={true}
+                to='/'
                 smooth={true}
                 duration={500}
               >
                 <i className="icon-graduation"></i>Experience
-              </Link>
+              </LinkR>
             </li>
             <li>
-              <Link
+              <LinkR
                 activeClass="active"
-                to="section-works"
                 spy={true}
+                to='/'
                 smooth={true}
                 duration={500}
               >
                 <i className="icon-layers"></i>Works
-              </Link>
+              </LinkR>
             </li>
             <li>
-              <Link
+              <LinkR
                 activeClass="active"
-                to="section-blogs"
                 spy={true}
+                to='/'
                 smooth={true}
                 duration={500}
               >
                 <i className="icon-note"></i>Blog
-              </Link>
+              </LinkR>
             </li>
             <li>
-              <Link
+              <LinkR
                 activeClass="active"
-                to="section-contact"
                 spy={true}
+                to='/'
                 smooth={true}
                 duration={500}
               >
                 <i className="icon-bubbles"></i>Contact
-              </Link>
+              </LinkR>
             </li>
           </ul>
         </nav>
