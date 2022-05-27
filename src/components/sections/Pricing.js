@@ -5,49 +5,49 @@ import Pricebox from "../elements/Pricebox";
 const priceboxData = [
   {
     id: 1,
-    title: "Basic",
+    title: "Frontend",
     icon: "images/price-1.svg",
     content: [
       {
         id: 0,
-        text: "A Simple option but powerful to manage your business",
+        text: "Awesome Pixel-Perfect and Responsive design with dynamic functionality",
       },
       {
         id: 2,
-        text: "Email support",
+        text: "7 days free support",
       },
     ],
-    price: 9,
+    price: 5,
     best: false,
     badge: false,
   },
   {
     id: 2,
-    title: "Premium",
-    icon: "images/price-2.svg",
+    title: "Fullstack",
+    icon: "images/price-3.svg",
     content: [
       {
         id: 1,
-        text: "Unlimited product including apps integrations and more features",
+        text: "Full package of standard quality Application",
       },
       {
         id: 2,
-        text: "Mon-Fri support",
+        text: "1 month free support",
       },
     ],
-    price: 49,
+    price: 15,
     best: true,
     badge: "Recommended",
   },
   {
     id: 3,
-    title: "Ultimate",
-    icon: "images/price-3.svg",
+    title: "Backend",
+    icon: "images/price-2.svg",
     content: [
-      { id: 1, text: "A wise option for large companies and individuals" },
-      { id: 2, text: "24/7 support" },
+      { id: 1, text: "Standard API implementation and Super Secure backend application" },
+      { id: 2, text: "7 days free support" },
     ],
-    price: 99,
+    price: 10,
     best: false,
     badge: false,
   },

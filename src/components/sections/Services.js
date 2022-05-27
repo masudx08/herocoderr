@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import Pagetitle from "../elements/Pagetitle";
 import Service from "../elements/Service";
 
@@ -7,27 +6,27 @@ const servicesData = [
   {
     id: 1,
     icon: "images/service-1.svg",
-    title: "UI/UX design",
+    title: "Frontend Development",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Pixel Perfect Responsive Design. Standard and Easily Maintainable Code",
     color: "#6C6CE5",
     contentColor: "light",
   },
   {
     id: 2,
     icon: "images/service-2.svg",
-    title: "Web Development",
+    title: "Backend Development",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Work on MVC pattern and  Micro Service. Provide Secure and Authentic Application",
     color: "#F9D74C",
     contentColor: "dark",
   },
   {
     id: 3,
     icon: "images/service-3.svg",
-    title: "Photography",
+    title: "MERN Stack  Development",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Professional and World Class Quality maintained project. Easy extendability and User friendly",
     color: "#F97B8B",
     contentColor: "light",
   },
@@ -48,15 +47,13 @@ function Services() {
         <div className="mt-5 text-center">
           <p className="mb-0">
             Looking for a custom job?{" "}
-            <Link
+            <a
               className="colorpink pointer"
-              to="section-contact"
-              spy={true}
-              smooth={true}
-              duration={500}
+             href='https://www.upwork.com/freelancers/~011219692ea643aa2f'
+             target='_blank'
             >
               Click here
-            </Link>{" "}
+            </a>{" "}
             to contact me! 👋
           </p>
         </div>

@@ -19,7 +19,7 @@ function Pricebox({ priceboxItem }) {
       <h3 className="price">
         <em>$</em>
         {price}
-        <span>Month</span>
+        <span>per hour</span>
       </h3>
       <a href="!#" className="btn btn-default">
         Get Started
