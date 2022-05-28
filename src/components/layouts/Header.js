@@ -64,17 +64,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 <i className="icon-user-following"></i>About
               </LinkR>
             </li>
-            <li>
-              <LinkR
-                activeClass="active"
-                spy={true}
-                to='/'
-                smooth={true}
-                duration={500}
-              >
-                <i className="icon-briefcase"></i>Services
-              </LinkR>
-            </li>
+            
             <li>
               <LinkR
                 activeClass="active"
@@ -105,6 +95,17 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 smooth={true}
                 duration={500}
               >
+                <i className="icon-briefcase"></i>Services
+              </LinkR>
+            </li>
+            {/* <li>
+              <LinkR
+                activeClass="active"
+                spy={true}
+                to='/'
+                smooth={true}
+                duration={500}
+              >
                 <i className="icon-note"></i>Blog
               </LinkR>
             </li>
@@ -118,7 +119,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
               >
                 <i className="icon-bubbles"></i>Contact
               </LinkR>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
