@@ -68,7 +68,7 @@ const allData = [
     title: "BNB Trading Platform",
     category: "backend",
     image: "images/work/trading.jpg",
-    link: "images/work/trading.jpg",
+    // link: "images/work/trading.jpg",
   },
   {
     id: 7,
@@ -82,7 +82,7 @@ const allData = [
     title: "Quackland - Simple NFT showcase",
     category: "frontend",
     image: "images/work/quackland-nft.jpg",
-    link: "images/work/quackland-nft.jpg",
+    // link: "images/work/quackland-nft.jpg",
   },
 ];
 
