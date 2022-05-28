@@ -69,6 +69,7 @@ const allData = [
     category: "backend",
     image: "images/work/trading.jpg",
     // link: "images/work/trading.jpg",
+    popupLink: ["images/work/trading.jpg"]
   },
   {
     id: 7,
@@ -83,6 +84,7 @@ const allData = [
     category: "frontend",
     image: "images/work/quackland-nft.jpg",
     // link: "images/work/quackland-nft.jpg",
+    popupLink: ["images/work/quackland-nft.jpg"]
   },
 ];
 
