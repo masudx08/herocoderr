@@ -36,9 +36,7 @@ const allData = [
     category: "backend",
     image: "images/work/creative-agency.jpg",
     popupLink: [
-      "images/works/2.svg",
-      "images/works/5.svg",
-      "images/works/6.svg",
+      "images/work/creative-agency.jpg",
     ],
   },
   {
@@ -46,7 +44,7 @@ const allData = [
     title: "Crick AI - Live Cricket Show",
     category: "frontend",
     image: "images/work/crickai.jpg",
-    popupLink: ["https://www.youtube.com/watch?v=qf9z4ulfmYw"],
+    popupLink: ["images/work/crickai.jpg"],
   },
   {
     id: 4,
@@ -54,8 +52,7 @@ const allData = [
     category: "mern",
     image: "images/work/doctor-portal.jpg",
     popupLink: [
-      "https://www.youtube.com/watch?v=URVHRhBSjj8",
-      "https://www.youtube.com/watch?v=qf9z4ulfmYw",
+      "images/work/doctor-portal.jpg",
     ],
   },
   {
@@ -63,7 +60,7 @@ const allData = [
     title: "Gang of Meta",
     category: "frontend",
     image: "images/work/meta-nft.jpg",
-    popupLink: ["images/works/5.svg"],
+    popupLink: ["images/work/meta-nft.jpg"],
   },
   
   {
@@ -71,21 +68,21 @@ const allData = [
     title: "BNB Trading Platform",
     category: "backend",
     image: "images/work/trading.jpg",
-    link: "https://pinterest.com",
+    link: "images/work/trading.jpg",
   },
   {
     id: 7,
     title: "BNB Trading Platform",
     category: "backend",
     image: "images/work/trading-2.jpg",
-    popupLink: ["images/works/1.svg"],
+    popupLink: ["images/work/trading-2.jpg"],
   },
   {
     id: 8,
     title: "Quackland - Simple NFT showcase",
     category: "frontend",
     image: "images/work/quackland-nft.jpg",
-    link: "https://dribbble.com",
+    link: "images/work/quackland-nft.jpg",
   },
 ];
 
