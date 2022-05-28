@@ -7,26 +7,26 @@ const sliderData = [
   {
     id: 1,
     avatar: "images/avatar-1.svg",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    userName: "Suresh Gaussian",
+    subtitle: "Product designer",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "I am very pleased to work with Alam. He was quick to translate my figma design to react code. I would definetly leverage his skills as I develop my app going forward. 100% recommend 👍",
   },
   {
     id: 2,
     avatar: "images/avatar-2.svg",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    userName: "Rico",
+    subtitle: "Team Manager",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "Great communication, kept me updated along the way, work was 100%. Can't fault in anyway, would highly recommend 🎉",
   },
   {
     id: 3,
     avatar: "images/avatar-3.svg",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    userName: "David",
+    subtitle: "CEO of angelsterritory",
     review:
-      "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+      "He is awesome MERN stack developer. He made a awesome trading application for me. Alam is real hero 🏅🏅",
   },
 ];
 

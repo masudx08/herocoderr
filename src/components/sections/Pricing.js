@@ -23,7 +23,7 @@ const priceboxData = [
   },
   {
     id: 2,
-    title: "Fullstack",
+    title: "Full Stack",
     icon: "images/price-3.svg",
     content: [
       {

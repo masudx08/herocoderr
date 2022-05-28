@@ -3,35 +3,51 @@ import React from "react";
 const brandlogoData = [
   {
     id: 1,
-    image: "images/client-1.svg",
-  },
-  {
-    id: 2,
-    image: "images/client-2.svg",
+    image: "images/tech/bootstrap.svg",
   },
   {
     id: 3,
-    image: "images/client-3.svg",
+    image: "images/tech/express.svg",
   },
   {
     id: 4,
-    image: "images/client-4.svg",
+    image: "images/tech/firebase.svg",
   },
   {
     id: 5,
-    image: "images/client-5.svg",
+    image: "images/tech/html.svg",
   },
   {
     id: 6,
-    image: "images/client-6.svg",
+    image: "images/tech/javascript.svg",
   },
   {
     id: 7,
-    image: "images/client-7.svg",
+    image: "images/tech/mongo.svg",
   },
   {
     id: 8,
-    image: "images/client-8.svg",
+    image: "images/tech/next.svg",
+  },
+  {
+    id: 9,
+    image: "images/tech/node.svg",
+  },
+  {
+    id: 10,
+    image: "images/tech/react.svg",
+  },
+  {
+    id: 11,
+    image: "images/tech/redux.svg",
+  },
+  {
+    id: 12,
+    image: "images/tech/sass.svg",
+  },
+  {
+    id: 13,
+    image: "images/tech/typescript.svg",
   },
 ];
 
@@ -44,7 +60,7 @@ function Brandlogos() {
             <div className="col-md-3 col-6" key={brandlogo.id}>
               <div className="client-item">
                 <div className="inner">
-                  <img src={brandlogo.image} alt="client-name" />
+                  <img style={{maxWidth:'100px'}} src={brandlogo.image} alt="client-name" />
                 </div>
               </div>
             </div>
